@@ -25,11 +25,10 @@ Programming Language :: Python :: 3.3
 Programming Language :: Python :: 3.4
 Topic :: Scientific/Engineering :: Bio-Informatics
 '''
-NAME                = 'IBEIS Identification Plugin Example'
+NAME                = 'IBEIS Kaggle7 Plugin'
 MAINTAINER          = 'Wildbook Org. | IBEIS IA'
 MAINTAINER_EMAIL    = 'info@wildme.org'
-DESCRIPTION         = 'An example of how to design and use a Python module ' + \
-                      'as a plugin in the IBEIS IA system'
+DESCRIPTION         = 'A plugin that wraps the Kaggle7 algorithm.'
 LONG_DESCRIPTION    = DESCRIPTION
 KEYWORDS            = ['ibeis', 'plugin', 'identification', 'wildbook', 'ia']
 URL                 = 'https://github.com/WildbookOrg/'
@@ -43,7 +42,7 @@ MINOR               = 1
 MICRO               = 0
 SUFFIX              = 'dev0'
 VERSION             = '%d.%d.%d.%s' % (MAJOR, MINOR, MICRO, SUFFIX)
-PACKAGES            = ['ibeis_plugin_identification_example']
+PACKAGES            = ['ibeis_kaggle7']
 
 
 def git_version():
@@ -75,7 +74,7 @@ def git_version():
     return git_revision
 
 
-def write_version_py(filename=os.path.join('ibeis_plugin_identification_example', 'version.py')):
+def write_version_py(filename=os.path.join('ibeis_kaggle7', 'version.py')):
     cnt = '''
 # THIS FILE IS GENERATED FROM SETUP.PY
 version = '%(version)s'

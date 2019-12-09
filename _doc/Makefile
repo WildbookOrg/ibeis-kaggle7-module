@@ -4,7 +4,7 @@
 # You can set these variables from the command line.
 SPHINXOPTS    =
 SPHINXBUILD   = sphinx-build
-SPHINXPROJ    = ibeis_plugin_identification_example
+SPHINXPROJ    = ibeis_kaggle7
 SOURCEDIR     = .
 BUILDDIR      = _build
 
