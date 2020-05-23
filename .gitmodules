@@ -1,3 +1,4 @@
 [submodule "ibeis_kaggle7"]
 	path = ibeis_kaggle7
-	url = git@github.com:WildbookOrg/whale-identification-2018.git
+	url = https://github.com/WildbookOrg/whale-identification-2018.git
+        branch = master
