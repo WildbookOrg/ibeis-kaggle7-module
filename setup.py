@@ -30,7 +30,7 @@ MAINTAINER          = 'Wildbook Org. | IBEIS IA'
 MAINTAINER_EMAIL    = 'info@wildme.org'
 DESCRIPTION         = 'A plugin that wraps the Kaggle7 algorithm.'
 LONG_DESCRIPTION    = DESCRIPTION
-KEYWORDS            = ['ibeis', 'plugin', 'identification', 'wildbook', 'ia']
+KEYWORDS            = ['wbia', 'plugin', 'identification', 'wildbook', 'ia']
 URL                 = 'https://github.com/WildbookOrg/'
 DOWNLOAD_URL        = ''
 LICENSE             = 'Apache'
@@ -42,7 +42,7 @@ MINOR               = 1
 MICRO               = 0
 SUFFIX              = 'dev0'
 VERSION             = '%d.%d.%d.%s' % (MAJOR, MINOR, MICRO, SUFFIX)
-PACKAGES            = ['ibeis_kaggle7']
+PACKAGES            = ['wbia_kaggle7']
 
 
 def git_version():
@@ -74,7 +74,7 @@ def git_version():
     return git_revision
 
 
-def write_version_py(filename=os.path.join('ibeis_kaggle7', 'version.py')):
+def write_version_py(filename=os.path.join('wbia_kaggle7', 'version.py')):
     cnt = '''
 # THIS FILE IS GENERATED FROM SETUP.PY
 version = '%(version)s'

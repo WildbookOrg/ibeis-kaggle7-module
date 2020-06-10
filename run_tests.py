@@ -8,7 +8,7 @@ import utool as ut
 def run_tests():
     # Build module list and run tests
     import sys
-    ut.change_term_title('RUN ibeis_kaggle7 TESTS')
+    ut.change_term_title('RUN wbia_kaggle7 TESTS')
     exclude_doctests_fnames = set([
     ])
     exclude_dirs = [
@@ -16,7 +16,7 @@ def run_tests():
         '_page',
         '*.egg-info',
     ]
-    dpath_list = ['ibeis_kaggle7']
+    dpath_list = ['wbia_kaggle7']
     doctest_modname_list = ut.find_doctestable_modnames(
         dpath_list, exclude_doctests_fnames, exclude_dirs)
 

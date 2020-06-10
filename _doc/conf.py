@@ -7,7 +7,7 @@ import os
 os.environ['IBIES_PARSE_ARGS'] = 'OFF'
 os.environ['UTOOL_AUTOGEN_SPHINX_RUNNING'] = 'ON'
 
-# sys.path.append('~/code/ibeis_kaggle7')
+# sys.path.append('~/code/wbia_kaggle7')
 sys.path.append(os.path.abspath("../"))
 
 autosummary_generate = True
@@ -28,7 +28,7 @@ html_theme_path = ["_themes", ]
 
 # -- Project information -----------------------------------------------------
 
-project = 'ibeis_kaggle7'
+project = 'wbia_kaggle7'
 copyright = '2019, Wild Me'
 author = 'Jason Parham'
 
